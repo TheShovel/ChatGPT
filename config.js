@@ -3,7 +3,7 @@ export const SERVER_PORT = 3000; // Server port
 export const DEBUG = false; // Debug mode
 
 // Prompt Moderation before sending to OpenAI
-export const MODERATION = true; // Moderation mode
+export const MODERATION = false; // Moderation mode
 
 // Rate limit
 export const PRIOD = 15 * 1000; // 15 seconds
@@ -16,8 +16,5 @@ export const WHITELISTED_IPS = [
 
 // OpenAI API Keys
 export let OPENAI_KEYS = [
-    "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-    "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-    "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-    "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "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"
 ];
